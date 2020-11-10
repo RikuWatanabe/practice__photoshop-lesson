@@ -1,0 +1,128 @@
+.inner {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto; }
+
+.flex {
+  display: flex;
+  align-items: center; }
+
+header {
+  padding: 10px 0; }
+
+.header__link {
+  display: flex;
+  margin: 0 0 0 auto; }
+
+.header__list {
+  position: relative;
+  text-align: center; }
+  .header__list > p {
+    font-size: 18px;
+    font-family: meiryo;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap; }
+    .header__list > p > span {
+      font-size: 11px; }
+  .header__list__icon__phone {
+    position: absolute;
+    top: 10px;
+    left: 35px; }
+
+.top__contents {
+  padding-top: 45%;
+  background: url(https://res.cloudinary.com/rk-wata/image/upload/v1603848219/%E5%8B%95%E7%94%BB%E6%8C%BF%E5%85%A5%E9%83%A8%E5%88%86_ov1kmi.jpg);
+  Background-size: cover; }
+  .top__contents > div > h2, .top__contents p {
+    color: #ffffff;
+    text-align: center; }
+  .top__contents__circle__icon {
+    margin: 0 20px; }
+  .top__contents__p1 {
+    font-size: 35px; }
+  .top__contents__p2 {
+    font-size: 63.73px;
+    font-family: Calibri;
+    margin-top: 80.075px; }
+  .top__contents__p3 {
+    font-size: 63.73px;
+    font-family: calibri;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 211.8px;
+    padding-bottom: 207px; }
+
+.what__and__who {
+  padding-top: 176px; }
+  .what__and__who > div > div > h2 {
+    font-size: 48px;
+    width: 725px;
+    text-align: center;
+    font-family: Calibri;
+    border-bottom: 1px solid #0e88ad;
+    padding-bottom: 62px;
+    margin: 0 auto; }
+
+.what__we__do > h3 {
+  font-size: 48px;
+  color: #6dc8c1;
+  text-align: center;
+  padding-top: 62px;
+  line-height: 1.75em; }
+
+.what__we__do > p {
+  font-size: 23px;
+  text-align: center;
+  padding: 89.625px 0 153.625px 0;
+  line-height: 1.75em; }
+
+.who__we__are {
+  line-height: 1; }
+  .who__we__are > div {
+    display: flex; }
+  .who__we__are__left {
+    padding-top: 50px;
+    position: relative; }
+    .who__we__are__left > h3 {
+      font-size: 36.76px;
+      position: absolute;
+      top: 86px;
+      left: 69px; }
+    .who__we__are__left__subtitle {
+      font-size: 24.28px;
+      position: absolute;
+      top: 160.76px;
+      left: 65px;
+      line-height: 1.75em; }
+    .who__we__are__left__contents {
+      position: absolute;
+      top: 288px;
+      left: 55px;
+      font-size: 21.11px;
+      line-height: 1.75em; }
+    .who__we__are__left__square {
+      position: absolute;
+      top: 222px;
+      left: -73px; }
+  .who__we__are__right {
+    position: relative; }
+    .who__we__are__right__photo {
+      position: absolute;
+      top: 70px;
+      left: 33px;
+      z-index: 100; }
+    .who__we__are__right__square {
+      position: absolute;
+      top: 399px;
+      left: 495px; }
+
+.info__btn {
+  position: absolute;
+  top: 484px;
+  left: 130px; }
